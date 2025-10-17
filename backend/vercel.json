@@ -1,0 +1,32 @@
+{
+<<<<<<< HEAD
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/index.js"
+    }
+  ]
+}
+=======
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "api/index.js"
+      }
+    ]
+  }
+>>>>>>> 70d8161 (updated frontEnd and Backend)
